@@ -57,13 +57,13 @@ describe('date stringify', () => {
     expect(stringify(new Date())).toEqual('now');
   });
 
-  it('it should return `now-1y5m25d...` as a string', () => {
+  it('it should return `now-1y-4M-3w-4d-14h-4m-7s` as a string', () => {
     expect(stringify(new Date('2020-01-01'))).toEqual(
       'now-1y-4M-3w-4d-14h-4m-7s'
     );
   });
 
-  it('it should return `now-1y5m25d...` as a string', () => {
+  it('it should return `now+1y+7M+6d+9h+55m+53s` as a string', () => {
     expect(stringify(new Date('2023-01-01'))).toEqual(
       'now+1y+7M+6d+9h+55m+53s'
     );
