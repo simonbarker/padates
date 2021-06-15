@@ -1,6 +1,6 @@
 # notes
 
-This was pretty challenging, I feel like I missed some simpler algorithm to do this I tried two approaches and settled on bringing everything down ms to provide a base unit makes many things easier but makes months significantly harder as it's not a fixed unit of time and is relative to NOW().
+This was pretty challenging, I feel like I missed some simpler algorithm to do this I tried two approaches and settled on bringing everything down to ms to provide a base unit which makes many things easier but makes months significantly harder as it's not a fixed unit of time and is relative to NOW().
 
 I've sort of implemented leap years but it's not fully tested and would need more work doing to it.
 
